@@ -1,0 +1,80 @@
+/* Overall layout and spacing */
+
+  
+  /* Main container for the NFT details */
+  .page-div {
+    margin-top: 7%;
+    margin-left: 25%;
+    width: 47%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding:  20px;
+  }
+  
+  /* Header style */
+  
+  
+  /* NFT image styling */
+  .page-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Information section styling */
+  /* .page-div > .page-div {
+    
+  } */
+  .page-info{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  /* Pricing information highlight */
+  p:nth-child(3) {
+    font-weight: bold;
+    color: rgb(29, 29, 32); /* Light blue color for price */
+  }
+  
+  /* Button styling */
+  .page-info .nft-btn {
+    
+    background-color: rgb(29, 29, 32); /* Light blue color */
+    color: #fff;
+    border: none;
+    padding: 10px 14px;
+    
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .nft-btn:hover {
+    background-color: rgba(29, 29, 32, 0.797);
+   border-radius: 0px; /* Darker blue on hover */
+  }
+  
+  /* Message styling */
+  p:last-child {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
